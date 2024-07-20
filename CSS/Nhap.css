@@ -26,16 +26,16 @@
 	position: absolute;
 	bottom: 20%;
 	right: 0;
-	animation: Shrimp 30s linear infinite;
+	animation: Shrimp 5s linear infinite;
 }
 @keyframes Shrimp {
 	0% {
 		bottom: 20%;
-		right: 0;
+		right: 10%;
 	}
 	100% {
 		bottom: 50%;
-		right: 100%;
+		right: 85%;
 		transform: translate(-100%, -100%);
 	}
 }
@@ -90,7 +90,7 @@
 }
 @keyframes Shark {
     0% {
-        right: 0;
+        right: 10%;
         transform: translateY(0);
     }
     25% {
@@ -106,7 +106,7 @@
         transform: translateY(100px);
     }
     100% {
-        right: 100%;
+        right: 92%;
         transform: translateY(0);
     }
 }
@@ -182,12 +182,8 @@
         left: 50%;
         transform: translateY(0);
     }
-    75% {
-        left: 75%;
-        transform: translateY(30px);
-    }
     100% {
-        left: 100%;
+        left: 65%;
         transform: translateY(0);
     }
 }
@@ -205,12 +201,3 @@
     background-size: cover;
 }
 
-#background {
-    display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 85vh;
-	background-image: url('../Image/background1.jpg');
-	background-size: cover;
-	background-position: center;
-}
